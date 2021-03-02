@@ -3,27 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC774A2160B8B058F62B0BBE /* Pods_UrbanHeroApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FC42B308D7EC283D02C3D6 /* Pods_UrbanHeroApplication.framework */; };
+		F80E49E125B4973A0087B115 /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E49E025B4973A0087B115 /* JobDetailsViewController.swift */; };
+		F815CC0725B42EED00E9381B /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815CC0625B42EED00E9381B /* JobCell.swift */; };
 		F8804CFC25AC9F000032D089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8804CFB25AC9F000032D089 /* AppDelegate.swift */; };
 		F8804CFE25AC9F000032D089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8804CFD25AC9F000032D089 /* SceneDelegate.swift */; };
-		F8804D0025AC9F000032D089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8804CFF25AC9F000032D089 /* ViewController.swift */; };
+		F8804D0025AC9F000032D089 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8804CFF25AC9F000032D089 /* LoginViewController.swift */; };
 		F8804D0325AC9F000032D089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8804D0125AC9F000032D089 /* Main.storyboard */; };
 		F8804D0525AC9F020032D089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8804D0425AC9F020032D089 /* Assets.xcassets */; };
 		F8804D0825AC9F020032D089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8804D0625AC9F020032D089 /* LaunchScreen.storyboard */; };
+		F8804D1025ACB30C0032D089 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8804D0F25ACB30C0032D089 /* DesignableView.swift */; };
+		F8804D1225ACB99A0032D089 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8804D1125ACB99A0032D089 /* RegisterViewController.swift */; };
+		F881E80225B836B400657AE0 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881E80125B836B400657AE0 /* UserCell.swift */; };
+		F881E80425B86ACF00657AE0 /* AdminDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881E80325B86ACF00657AE0 /* AdminDetailsViewController.swift */; };
+		F8894BB025BC2F4200B4F9C7 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8894BAF25BC2F4200B4F9C7 /* MapsViewController.swift */; };
+		F8894BB225BC3F4200B4F9C7 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = F8894BB125BC3F4200B4F9C7 /* style.json */; };
+		F889E17525BAD30500D3A35E /* StrikeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F889E17425BAD30500D3A35E /* StrikeDetailsViewController.swift */; };
+		F889E17725BAECEF00D3A35E /* ReportCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F889E17625BAECEF00D3A35E /* ReportCommentCell.swift */; };
+		F88A8C5B25B04AC00073A292 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A8C5A25B04AC00073A292 /* ReportViewController.swift */; };
+		F88C038F25B9DA07005544DE /* StrikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C038E25B9DA07005544DE /* StrikeCell.swift */; };
+		F89644FD25AEF83A005145BC /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89644FC25AEF83A005145BC /* UserViewController.swift */; };
+		F89644FF25AEF897005145BC /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89644FE25AEF897005145BC /* ServiceViewController.swift */; };
+		F896450125AF110C005145BC /* GoogleRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896450025AF110C005145BC /* GoogleRegisterViewController.swift */; };
+		F896450325AF41F1005145BC /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896450225AF41F1005145BC /* AdminViewController.swift */; };
+		F8AC1B2225B5B1A9003929DD /* ReimaginedCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC1B2125B5B1A9003929DD /* ReimaginedCommentCell.swift */; };
+		F8AC1B2425B5D01F003929DD /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC1B2325B5D01F003929DD /* UserDetailsViewController.swift */; };
+		F8EF140B25B17ADD0099711F /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EF140A25B17ADD0099711F /* FoldingCell.swift */; };
+		F8EF140D25B1A9AD0099711F /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EF140C25B1A9AD0099711F /* CommentsViewController.swift */; };
+		F8EF140F25B1B97D0099711F /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EF140E25B1B97D0099711F /* RatingControl.swift */; };
+		F8EF141125B1D79C0099711F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EF141025B1D79C0099711F /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AA507CA7D4BB6386CCC56AE /* Pods-UrbanHeroApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanHeroApplication.debug.xcconfig"; path = "Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		401D692EA6967BA41E352AAB /* Pods-UrbanHeroApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanHeroApplication.release.xcconfig"; path = "Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication.release.xcconfig"; sourceTree = "<group>"; };
+		E6FC42B308D7EC283D02C3D6 /* Pods_UrbanHeroApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanHeroApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80E49E025B4973A0087B115 /* JobDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewController.swift; sourceTree = "<group>"; };
+		F815CC0625B42EED00E9381B /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
 		F8804CF825AC9F000032D089 /* UrbanHeroApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanHeroApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8804CFB25AC9F000032D089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8804CFD25AC9F000032D089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8804CFF25AC9F000032D089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8804CFF25AC9F000032D089 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F8804D0225AC9F000032D089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8804D0425AC9F020032D089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8804D0725AC9F020032D089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8804D0925AC9F020032D089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8804D0F25ACB30C0032D089 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		F8804D1125ACB99A0032D089 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F881E80125B836B400657AE0 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F881E80325B86ACF00657AE0 /* AdminDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDetailsViewController.swift; sourceTree = "<group>"; };
+		F8894BAF25BC2F4200B4F9C7 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		F8894BB125BC3F4200B4F9C7 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		F889E17425BAD30500D3A35E /* StrikeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeDetailsViewController.swift; sourceTree = "<group>"; };
+		F889E17625BAECEF00D3A35E /* ReportCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCommentCell.swift; sourceTree = "<group>"; };
+		F88A8C5A25B04AC00073A292 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		F88C038E25B9DA07005544DE /* StrikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeCell.swift; sourceTree = "<group>"; };
+		F89644FC25AEF83A005145BC /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		F89644FE25AEF897005145BC /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		F896450025AF110C005145BC /* GoogleRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleRegisterViewController.swift; sourceTree = "<group>"; };
+		F896450225AF41F1005145BC /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		F8AC1B2125B5B1A9003929DD /* ReimaginedCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimaginedCommentCell.swift; sourceTree = "<group>"; };
+		F8AC1B2325B5D01F003929DD /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		F8EF140A25B17ADD0099711F /* FoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		F8EF140C25B1A9AD0099711F /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		F8EF140E25B1B97D0099711F /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		F8EF141025B1D79C0099711F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC774A2160B8B058F62B0BBE /* Pods_UrbanHeroApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45702EAB53EB3C578E17263F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC42B308D7EC283D02C3D6 /* Pods_UrbanHeroApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2FBCF86C51C24D2E7D1E025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA507CA7D4BB6386CCC56AE /* Pods-UrbanHeroApplication.debug.xcconfig */,
+				401D692EA6967BA41E352AAB /* Pods-UrbanHeroApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F8804CEF25AC9EFF0032D089 = {
 			isa = PBXGroup;
 			children = (
 				F8804CFA25AC9F000032D089 /* UrbanHeroApplication */,
 				F8804CF925AC9F000032D089 /* Products */,
+				E2FBCF86C51C24D2E7D1E025 /* Pods */,
+				45702EAB53EB3C578E17263F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +126,33 @@
 			children = (
 				F8804CFB25AC9F000032D089 /* AppDelegate.swift */,
 				F8804CFD25AC9F000032D089 /* SceneDelegate.swift */,
-				F8804CFF25AC9F000032D089 /* ViewController.swift */,
+				F8804CFF25AC9F000032D089 /* LoginViewController.swift */,
 				F8804D0125AC9F000032D089 /* Main.storyboard */,
 				F8804D0425AC9F020032D089 /* Assets.xcassets */,
 				F8804D0625AC9F020032D089 /* LaunchScreen.storyboard */,
 				F8804D0925AC9F020032D089 /* Info.plist */,
+				F8804D0F25ACB30C0032D089 /* DesignableView.swift */,
+				F8804D1125ACB99A0032D089 /* RegisterViewController.swift */,
+				F89644FC25AEF83A005145BC /* UserViewController.swift */,
+				F89644FE25AEF897005145BC /* ServiceViewController.swift */,
+				F896450025AF110C005145BC /* GoogleRegisterViewController.swift */,
+				F896450225AF41F1005145BC /* AdminViewController.swift */,
+				F88A8C5A25B04AC00073A292 /* ReportViewController.swift */,
+				F8EF140A25B17ADD0099711F /* FoldingCell.swift */,
+				F8EF140C25B1A9AD0099711F /* CommentsViewController.swift */,
+				F8EF140E25B1B97D0099711F /* RatingControl.swift */,
+				F8EF141025B1D79C0099711F /* CommentCell.swift */,
+				F815CC0625B42EED00E9381B /* JobCell.swift */,
+				F80E49E025B4973A0087B115 /* JobDetailsViewController.swift */,
+				F8AC1B2125B5B1A9003929DD /* ReimaginedCommentCell.swift */,
+				F8AC1B2325B5D01F003929DD /* UserDetailsViewController.swift */,
+				F881E80125B836B400657AE0 /* UserCell.swift */,
+				F881E80325B86ACF00657AE0 /* AdminDetailsViewController.swift */,
+				F88C038E25B9DA07005544DE /* StrikeCell.swift */,
+				F889E17425BAD30500D3A35E /* StrikeDetailsViewController.swift */,
+				F889E17625BAECEF00D3A35E /* ReportCommentCell.swift */,
+				F8894BAF25BC2F4200B4F9C7 /* MapsViewController.swift */,
+				F8894BB125BC3F4200B4F9C7 /* style.json */,
 			);
 			path = UrbanHeroApplication;
 			sourceTree = "<group>";
@@ -74,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8804D0C25AC9F020032D089 /* Build configuration list for PBXNativeTarget "UrbanHeroApplication" */;
 			buildPhases = (
+				C7C74D15E8B17734D5D4749C /* [CP] Check Pods Manifest.lock */,
 				F8804CF425AC9EFF0032D089 /* Sources */,
 				F8804CF525AC9EFF0032D089 /* Frameworks */,
 				F8804CF625AC9EFF0032D089 /* Resources */,
+				A4D22A446D949FBF18B1D226 /* [CP] Embed Pods Frameworks */,
+				A318CC6CE64219BE59F77DE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,19 +221,100 @@
 				F8804D0825AC9F020032D089 /* LaunchScreen.storyboard in Resources */,
 				F8804D0525AC9F020032D089 /* Assets.xcassets in Resources */,
 				F8804D0325AC9F000032D089 /* Main.storyboard in Resources */,
+				F8894BB225BC3F4200B4F9C7 /* style.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A318CC6CE64219BE59F77DE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D22A446D949FBF18B1D226 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrbanHeroApplication/Pods-UrbanHeroApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C74D15E8B17734D5D4749C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UrbanHeroApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8804CF425AC9EFF0032D089 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8804D0025AC9F000032D089 /* ViewController.swift in Sources */,
+				F8AC1B2225B5B1A9003929DD /* ReimaginedCommentCell.swift in Sources */,
+				F896450325AF41F1005145BC /* AdminViewController.swift in Sources */,
+				F815CC0725B42EED00E9381B /* JobCell.swift in Sources */,
+				F8894BB025BC2F4200B4F9C7 /* MapsViewController.swift in Sources */,
+				F8804D1025ACB30C0032D089 /* DesignableView.swift in Sources */,
+				F89644FD25AEF83A005145BC /* UserViewController.swift in Sources */,
+				F8804D1225ACB99A0032D089 /* RegisterViewController.swift in Sources */,
+				F889E17725BAECEF00D3A35E /* ReportCommentCell.swift in Sources */,
+				F881E80425B86ACF00657AE0 /* AdminDetailsViewController.swift in Sources */,
+				F881E80225B836B400657AE0 /* UserCell.swift in Sources */,
+				F88A8C5B25B04AC00073A292 /* ReportViewController.swift in Sources */,
+				F88C038F25B9DA07005544DE /* StrikeCell.swift in Sources */,
+				F8804D0025AC9F000032D089 /* LoginViewController.swift in Sources */,
+				F8AC1B2425B5D01F003929DD /* UserDetailsViewController.swift in Sources */,
+				F89644FF25AEF897005145BC /* ServiceViewController.swift in Sources */,
 				F8804CFC25AC9F000032D089 /* AppDelegate.swift in Sources */,
+				F80E49E125B4973A0087B115 /* JobDetailsViewController.swift in Sources */,
+				F8EF140D25B1A9AD0099711F /* CommentsViewController.swift in Sources */,
+				F896450125AF110C005145BC /* GoogleRegisterViewController.swift in Sources */,
+				F8EF140F25B1B97D0099711F /* RatingControl.swift in Sources */,
+				F8EF140B25B17ADD0099711F /* FoldingCell.swift in Sources */,
+				F889E17525BAD30500D3A35E /* StrikeDetailsViewController.swift in Sources */,
 				F8804CFE25AC9F000032D089 /* SceneDelegate.swift in Sources */,
+				F8EF141125B1D79C0099711F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +456,7 @@
 		};
 		F8804D0D25AC9F020032D089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA507CA7D4BB6386CCC56AE /* Pods-UrbanHeroApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +475,7 @@
 		};
 		F8804D0E25AC9F020032D089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401D692EA6967BA41E352AAB /* Pods-UrbanHeroApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
